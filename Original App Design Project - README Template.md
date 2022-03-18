@@ -75,7 +75,7 @@ Helping people put their health first by building exercise habits with proven ha
 * Profile -> Text field to be modified. 
 * Settings -> Toggle settings
 
-## Wireframes![]
+## Wireframes
 
 <img src="https://i.imgur.com/FTmrAEg.jpg" width=600>
 
