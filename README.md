@@ -79,6 +79,9 @@ Helping people put their health first by building exercise habits with proven ha
 
 <img src="https://i.imgur.com/FTmrAEg.jpg" width=600>
 
+![Screen Shot 2022-03-18 at 6 07 14 PM](https://user-images.githubusercontent.com/35610844/159091064-284f0bf9-71f7-455b-8f12-d835d3728fd1.png)
+
+
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
