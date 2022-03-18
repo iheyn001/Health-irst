@@ -91,7 +91,15 @@ Helping people put their health first by building exercise habits with proven ha
 ### Models
 [Add table of models]
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
-
+* Home Feed Screen
+   * (Read/GET) Query all posts where user or buddy of the user is author
+   * (Create/POST) Lift a post
+   * (Delete) Delete existing lift
+   * (Create/POST) Add a new comment to a post
+   * (Delete) Delete existing comment
+   * (Create/POST) Create a new post object
+* Schedule Screen
+   * (Update/PUT) Change days of the week and times for the gym
+* Profile Screen
+   * (Read/GET) Query logged in user object
+   * (Create/POST) Change username
