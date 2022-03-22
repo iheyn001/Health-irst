@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6988B98625008CDE61393EB /* Pods_Health_irst.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77BEB05C2E5E03965EEA885 /* Pods_Health_irst.framework */; };
+		B69C7C4123FA38BA00C261EC /* Pods_Health_irst_Health_irstUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE75913B4242F406D978E2D0 /* Pods_Health_irst_Health_irstUITests.framework */; };
+		CE271D5627EA3F0200ADB494 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE271D5527EA3F0200ADB494 /* AppDelegate.swift */; };
+		CE271D5827EA3F0200ADB494 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE271D5727EA3F0200ADB494 /* SceneDelegate.swift */; };
+		CE271D5A27EA3F0200ADB494 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE271D5927EA3F0200ADB494 /* ViewController.swift */; };
+		CE271D5D27EA3F0200ADB494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE271D5B27EA3F0200ADB494 /* Main.storyboard */; };
+		CE271D5F27EA3F0800ADB494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE271D5E27EA3F0800ADB494 /* Assets.xcassets */; };
+		CE271D6227EA3F0800ADB494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE271D6027EA3F0800ADB494 /* LaunchScreen.storyboard */; };
+		CE271D6D27EA3F0900ADB494 /* Health_irstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE271D6C27EA3F0900ADB494 /* Health_irstTests.swift */; };
+		CE271D7727EA3F0900ADB494 /* Health_irstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE271D7627EA3F0900ADB494 /* Health_irstUITests.swift */; };
+		CE271D7927EA3F0900ADB494 /* Health_irstUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE271D7827EA3F0900ADB494 /* Health_irstUITestsLaunchTests.swift */; };
+		CE271D8727EA49C500ADB494 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE271D8627EA49C500ADB494 /* InitialViewController.swift */; };
+		CE271D8927EA52D300ADB494 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE271D8827EA52D300ADB494 /* SignUpViewController.swift */; };
+		CE271D8B27EA5EB200ADB494 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE271D8A27EA5EB200ADB494 /* SignInViewController.swift */; };
+		E72A917027F2E51320826A03 /* Pods_Health_irstTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC076FED654CB6BE4B4ED7D /* Pods_Health_irstTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE271D6927EA3F0900ADB494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE271D4A27EA3F0200ADB494 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE271D5127EA3F0200ADB494;
+			remoteInfo = "Health-irst";
+		};
+		CE271D7327EA3F0900ADB494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE271D4A27EA3F0200ADB494 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE271D5127EA3F0200ADB494;
+			remoteInfo = "Health-irst";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F4A54410BC33AD3AAF10A7C /* Pods-Health-irst.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health-irst.release.xcconfig"; path = "Target Support Files/Pods-Health-irst/Pods-Health-irst.release.xcconfig"; sourceTree = "<group>"; };
+		3C10B59D8582E8A096131AE4 /* Pods-Health-irst.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health-irst.debug.xcconfig"; path = "Target Support Files/Pods-Health-irst/Pods-Health-irst.debug.xcconfig"; sourceTree = "<group>"; };
+		7FC076FED654CB6BE4B4ED7D /* Pods_Health_irstTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health_irstTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A66E3E7D111CC8AE5F1C28A /* Pods-Health-irst-Health-irstUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health-irst-Health-irstUITests.debug.xcconfig"; path = "Target Support Files/Pods-Health-irst-Health-irstUITests/Pods-Health-irst-Health-irstUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A42CB5124FA808ED98BFA3BF /* Pods-Health-irstTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health-irstTests.debug.xcconfig"; path = "Target Support Files/Pods-Health-irstTests/Pods-Health-irstTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBBE89119D3A8AD26287906E /* Pods-Health-irstTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health-irstTests.release.xcconfig"; path = "Target Support Files/Pods-Health-irstTests/Pods-Health-irstTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE271D5227EA3F0200ADB494 /* Health-irst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health-irst.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE271D5527EA3F0200ADB494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE271D5727EA3F0200ADB494 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE271D5927EA3F0200ADB494 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE271D5C27EA3F0200ADB494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE271D5E27EA3F0800ADB494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE271D6127EA3F0800ADB494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE271D6327EA3F0800ADB494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE271D6827EA3F0900ADB494 /* Health-irstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health-irstTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE271D6C27EA3F0900ADB494 /* Health_irstTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_irstTests.swift; sourceTree = "<group>"; };
+		CE271D7227EA3F0900ADB494 /* Health-irstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health-irstUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE271D7627EA3F0900ADB494 /* Health_irstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_irstUITests.swift; sourceTree = "<group>"; };
+		CE271D7827EA3F0900ADB494 /* Health_irstUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_irstUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE271D8627EA49C500ADB494 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		CE271D8827EA52D300ADB494 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CE271D8A27EA5EB200ADB494 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		DE75913B4242F406D978E2D0 /* Pods_Health_irst_Health_irstUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health_irst_Health_irstUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E312344699778F3B760F4198 /* Pods-Health-irst-Health-irstUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health-irst-Health-irstUITests.release.xcconfig"; path = "Target Support Files/Pods-Health-irst-Health-irstUITests/Pods-Health-irst-Health-irstUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F77BEB05C2E5E03965EEA885 /* Pods_Health_irst.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health_irst.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE271D4F27EA3F0200ADB494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6988B98625008CDE61393EB /* Pods_Health_irst.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE271D6527EA3F0900ADB494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72A917027F2E51320826A03 /* Pods_Health_irstTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE271D6F27EA3F0900ADB494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69C7C4123FA38BA00C261EC /* Pods_Health_irst_Health_irstUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BF5E5AD6DBF539C814BFA8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C10B59D8582E8A096131AE4 /* Pods-Health-irst.debug.xcconfig */,
+				0F4A54410BC33AD3AAF10A7C /* Pods-Health-irst.release.xcconfig */,
+				9A66E3E7D111CC8AE5F1C28A /* Pods-Health-irst-Health-irstUITests.debug.xcconfig */,
+				E312344699778F3B760F4198 /* Pods-Health-irst-Health-irstUITests.release.xcconfig */,
+				A42CB5124FA808ED98BFA3BF /* Pods-Health-irstTests.debug.xcconfig */,
+				BBBE89119D3A8AD26287906E /* Pods-Health-irstTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C7EF8E69ED6C266CA9076FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F77BEB05C2E5E03965EEA885 /* Pods_Health_irst.framework */,
+				DE75913B4242F406D978E2D0 /* Pods_Health_irst_Health_irstUITests.framework */,
+				7FC076FED654CB6BE4B4ED7D /* Pods_Health_irstTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE271D4927EA3F0200ADB494 = {
+			isa = PBXGroup;
+			children = (
+				CE271D5427EA3F0200ADB494 /* Health-irst */,
+				CE271D6B27EA3F0900ADB494 /* Health-irstTests */,
+				CE271D7527EA3F0900ADB494 /* Health-irstUITests */,
+				CE271D5327EA3F0200ADB494 /* Products */,
+				4BF5E5AD6DBF539C814BFA8B /* Pods */,
+				5C7EF8E69ED6C266CA9076FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE271D5327EA3F0200ADB494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE271D5227EA3F0200ADB494 /* Health-irst.app */,
+				CE271D6827EA3F0900ADB494 /* Health-irstTests.xctest */,
+				CE271D7227EA3F0900ADB494 /* Health-irstUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE271D5427EA3F0200ADB494 /* Health-irst */ = {
+			isa = PBXGroup;
+			children = (
+				CE271D8527EA498D00ADB494 /* ViewControllers */,
+				CE271D5527EA3F0200ADB494 /* AppDelegate.swift */,
+				CE271D5727EA3F0200ADB494 /* SceneDelegate.swift */,
+				CE271D5927EA3F0200ADB494 /* ViewController.swift */,
+				CE271D5B27EA3F0200ADB494 /* Main.storyboard */,
+				CE271D5E27EA3F0800ADB494 /* Assets.xcassets */,
+				CE271D6027EA3F0800ADB494 /* LaunchScreen.storyboard */,
+				CE271D6327EA3F0800ADB494 /* Info.plist */,
+			);
+			path = "Health-irst";
+			sourceTree = "<group>";
+		};
+		CE271D6B27EA3F0900ADB494 /* Health-irstTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE271D6C27EA3F0900ADB494 /* Health_irstTests.swift */,
+			);
+			path = "Health-irstTests";
+			sourceTree = "<group>";
+		};
+		CE271D7527EA3F0900ADB494 /* Health-irstUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE271D7627EA3F0900ADB494 /* Health_irstUITests.swift */,
+				CE271D7827EA3F0900ADB494 /* Health_irstUITestsLaunchTests.swift */,
+			);
+			path = "Health-irstUITests";
+			sourceTree = "<group>";
+		};
+		CE271D8527EA498D00ADB494 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE271D8627EA49C500ADB494 /* InitialViewController.swift */,
+				CE271D8827EA52D300ADB494 /* SignUpViewController.swift */,
+				CE271D8A27EA5EB200ADB494 /* SignInViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE271D5127EA3F0200ADB494 /* Health-irst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE271D7C27EA3F0900ADB494 /* Build configuration list for PBXNativeTarget "Health-irst" */;
+			buildPhases = (
+				D5A3F4A1536805FF0F7C1294 /* [CP] Check Pods Manifest.lock */,
+				CE271D4E27EA3F0200ADB494 /* Sources */,
+				CE271D4F27EA3F0200ADB494 /* Frameworks */,
+				CE271D5027EA3F0200ADB494 /* Resources */,
+				CF411B85E29B0A2246CE0AF4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Health-irst";
+			productName = "Health-irst";
+			productReference = CE271D5227EA3F0200ADB494 /* Health-irst.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE271D6727EA3F0900ADB494 /* Health-irstTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE271D7F27EA3F0900ADB494 /* Build configuration list for PBXNativeTarget "Health-irstTests" */;
+			buildPhases = (
+				8C718FECA82A522B0F765C03 /* [CP] Check Pods Manifest.lock */,
+				CE271D6427EA3F0900ADB494 /* Sources */,
+				CE271D6527EA3F0900ADB494 /* Frameworks */,
+				CE271D6627EA3F0900ADB494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE271D6A27EA3F0900ADB494 /* PBXTargetDependency */,
+			);
+			name = "Health-irstTests";
+			productName = "Health-irstTests";
+			productReference = CE271D6827EA3F0900ADB494 /* Health-irstTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE271D7127EA3F0900ADB494 /* Health-irstUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE271D8227EA3F0900ADB494 /* Build configuration list for PBXNativeTarget "Health-irstUITests" */;
+			buildPhases = (
+				3A243794846C1C70A8E5D347 /* [CP] Check Pods Manifest.lock */,
+				CE271D6E27EA3F0900ADB494 /* Sources */,
+				CE271D6F27EA3F0900ADB494 /* Frameworks */,
+				CE271D7027EA3F0900ADB494 /* Resources */,
+				7B1C9E1A6B31F4FF52D1EAEE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE271D7427EA3F0900ADB494 /* PBXTargetDependency */,
+			);
+			name = "Health-irstUITests";
+			productName = "Health-irstUITests";
+			productReference = CE271D7227EA3F0900ADB494 /* Health-irstUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE271D4A27EA3F0200ADB494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CE271D5127EA3F0200ADB494 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					CE271D6727EA3F0900ADB494 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = CE271D5127EA3F0200ADB494;
+					};
+					CE271D7127EA3F0900ADB494 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = CE271D5127EA3F0200ADB494;
+					};
+				};
+			};
+			buildConfigurationList = CE271D4D27EA3F0200ADB494 /* Build configuration list for PBXProject "Health-irst" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE271D4927EA3F0200ADB494;
+			productRefGroup = CE271D5327EA3F0200ADB494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE271D5127EA3F0200ADB494 /* Health-irst */,
+				CE271D6727EA3F0900ADB494 /* Health-irstTests */,
+				CE271D7127EA3F0900ADB494 /* Health-irstUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE271D5027EA3F0200ADB494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE271D6227EA3F0800ADB494 /* LaunchScreen.storyboard in Resources */,
+				CE271D5F27EA3F0800ADB494 /* Assets.xcassets in Resources */,
+				CE271D5D27EA3F0200ADB494 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE271D6627EA3F0900ADB494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE271D7027EA3F0900ADB494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A243794846C1C70A8E5D347 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Health-irst-Health-irstUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B1C9E1A6B31F4FF52D1EAEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Health-irst-Health-irstUITests/Pods-Health-irst-Health-irstUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Health-irst-Health-irstUITests/Pods-Health-irst-Health-irstUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Health-irst-Health-irstUITests/Pods-Health-irst-Health-irstUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C718FECA82A522B0F765C03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Health-irstTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF411B85E29B0A2246CE0AF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Health-irst/Pods-Health-irst-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Health-irst/Pods-Health-irst-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Health-irst/Pods-Health-irst-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5A3F4A1536805FF0F7C1294 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Health-irst-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE271D4E27EA3F0200ADB494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE271D5A27EA3F0200ADB494 /* ViewController.swift in Sources */,
+				CE271D5627EA3F0200ADB494 /* AppDelegate.swift in Sources */,
+				CE271D8B27EA5EB200ADB494 /* SignInViewController.swift in Sources */,
+				CE271D5827EA3F0200ADB494 /* SceneDelegate.swift in Sources */,
+				CE271D8727EA49C500ADB494 /* InitialViewController.swift in Sources */,
+				CE271D8927EA52D300ADB494 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE271D6427EA3F0900ADB494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE271D6D27EA3F0900ADB494 /* Health_irstTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE271D6E27EA3F0900ADB494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE271D7927EA3F0900ADB494 /* Health_irstUITestsLaunchTests.swift in Sources */,
+				CE271D7727EA3F0900ADB494 /* Health_irstUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE271D6A27EA3F0900ADB494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE271D5127EA3F0200ADB494 /* Health-irst */;
+			targetProxy = CE271D6927EA3F0900ADB494 /* PBXContainerItemProxy */;
+		};
+		CE271D7427EA3F0900ADB494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE271D5127EA3F0200ADB494 /* Health-irst */;
+			targetProxy = CE271D7327EA3F0900ADB494 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE271D5B27EA3F0200ADB494 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE271D5C27EA3F0200ADB494 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE271D6027EA3F0800ADB494 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE271D6127EA3F0800ADB494 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE271D7A27EA3F0900ADB494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE271D7B27EA3F0900ADB494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE271D7D27EA3F0900ADB494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C10B59D8582E8A096131AE4 /* Pods-Health-irst.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HBS57W5MK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Health-irst/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foxkee.Health-irst";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE271D7E27EA3F0900ADB494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4A54410BC33AD3AAF10A7C /* Pods-Health-irst.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HBS57W5MK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Health-irst/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foxkee.Health-irst";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE271D8027EA3F0900ADB494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42CB5124FA808ED98BFA3BF /* Pods-Health-irstTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HBS57W5MK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foxkee.Health-irstTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Health-irst.app/Health-irst";
+			};
+			name = Debug;
+		};
+		CE271D8127EA3F0900ADB494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBE89119D3A8AD26287906E /* Pods-Health-irstTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HBS57W5MK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foxkee.Health-irstTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Health-irst.app/Health-irst";
+			};
+			name = Release;
+		};
+		CE271D8327EA3F0900ADB494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A66E3E7D111CC8AE5F1C28A /* Pods-Health-irst-Health-irstUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HBS57W5MK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foxkee.Health-irstUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Health-irst";
+			};
+			name = Debug;
+		};
+		CE271D8427EA3F0900ADB494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E312344699778F3B760F4198 /* Pods-Health-irst-Health-irstUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HBS57W5MK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foxkee.Health-irstUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Health-irst";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE271D4D27EA3F0200ADB494 /* Build configuration list for PBXProject "Health-irst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE271D7A27EA3F0900ADB494 /* Debug */,
+				CE271D7B27EA3F0900ADB494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE271D7C27EA3F0900ADB494 /* Build configuration list for PBXNativeTarget "Health-irst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE271D7D27EA3F0900ADB494 /* Debug */,
+				CE271D7E27EA3F0900ADB494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE271D7F27EA3F0900ADB494 /* Build configuration list for PBXNativeTarget "Health-irstTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE271D8027EA3F0900ADB494 /* Debug */,
+				CE271D8127EA3F0900ADB494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE271D8227EA3F0900ADB494 /* Build configuration list for PBXNativeTarget "Health-irstUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE271D8327EA3F0900ADB494 /* Debug */,
+				CE271D8427EA3F0900ADB494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE271D4A27EA3F0200ADB494 /* Project object */;
+}

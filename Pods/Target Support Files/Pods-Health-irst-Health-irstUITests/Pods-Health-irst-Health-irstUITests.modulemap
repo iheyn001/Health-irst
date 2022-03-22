@@ -1,0 +1,6 @@
+framework module Pods_Health_irst_Health_irstUITests {
+  umbrella header "Pods-Health-irst-Health-irstUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
