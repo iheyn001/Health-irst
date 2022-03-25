@@ -9,6 +9,7 @@ README File
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
+3. [Walkthrough Video] (#Walkthrough-Video)
 
 ## Overview
 ### Description
