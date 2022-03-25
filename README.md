@@ -9,7 +9,7 @@ README File
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
-3. [Walkthrough Video](#Walkthroug-Video)
+3. [Video Walkthroug](#Video-Walkthroug)
 
 ## Overview
 ### Description
@@ -105,6 +105,6 @@ Helping people put their health first by building exercise habits with proven ha
    * (Read/GET) Query logged in user object
    * (Create/POST) Change username
 
-## Walkthrough Video
+## Video Walkthroug
 
 <img src='http://g.recordit.co/qPHKnXWGiv.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
