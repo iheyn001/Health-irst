@@ -324,7 +324,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="71d-DK-P8b">
             <objects>
-                <tabBarController modalPresentationStyle="fullScreen" id="TUx-Dc-oAh" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainTabBarController" modalPresentationStyle="fullScreen" id="TUx-Dc-oAh" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XZt-I3-G5O">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
