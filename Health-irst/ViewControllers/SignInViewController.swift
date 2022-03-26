@@ -11,8 +11,8 @@ import Parse
 class SignInViewController: UIViewController {
 
     
-    @IBOutlet weak var usernameField: UITextField!
-    @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var signInUsernameField: UITextField!
+    @IBOutlet weak var signInPasswordField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,8 +37,8 @@ class SignInViewController: UIViewController {
 
     @IBAction func signInButton(_ sender: Any) {
         
-        let username = usernameField.text!
-        let password = passwordField.text!
+        let username = signInUsernameField.text!
+        let password = signInPasswordField.text!
         
         
         PFUser.logInWithUsername(inBackground: username, password: password) { user, error in

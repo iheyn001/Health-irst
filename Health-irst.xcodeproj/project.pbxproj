@@ -21,6 +21,8 @@
 		CE271D8727EA49C500ADB494 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE271D8627EA49C500ADB494 /* InitialViewController.swift */; };
 		CE271D8927EA52D300ADB494 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE271D8827EA52D300ADB494 /* SignUpViewController.swift */; };
 		CE271D8B27EA5EB200ADB494 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE271D8A27EA5EB200ADB494 /* SignInViewController.swift */; };
+		CEBE168427EFB6C100367CFF /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE168327EFB6C100367CFF /* HomeFeedViewController.swift */; };
+		CEBE168627EFBE7100367CFF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE168527EFBE7100367CFF /* ProfileViewController.swift */; };
 		E72A917027F2E51320826A03 /* Pods_Health_irstTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC076FED654CB6BE4B4ED7D /* Pods_Health_irstTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,8 @@
 		CE271D8627EA49C500ADB494 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		CE271D8827EA52D300ADB494 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CE271D8A27EA5EB200ADB494 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CEBE168327EFB6C100367CFF /* HomeFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedViewController.swift; sourceTree = "<group>"; };
+		CEBE168527EFBE7100367CFF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DE75913B4242F406D978E2D0 /* Pods_Health_irst_Health_irstUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health_irst_Health_irstUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E312344699778F3B760F4198 /* Pods-Health-irst-Health-irstUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health-irst-Health-irstUITests.release.xcconfig"; path = "Target Support Files/Pods-Health-irst-Health-irstUITests/Pods-Health-irst-Health-irstUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F77BEB05C2E5E03965EEA885 /* Pods_Health_irst.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health_irst.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +184,8 @@
 				CE271D8627EA49C500ADB494 /* InitialViewController.swift */,
 				CE271D8827EA52D300ADB494 /* SignUpViewController.swift */,
 				CE271D8A27EA5EB200ADB494 /* SignInViewController.swift */,
+				CEBE168327EFB6C100367CFF /* HomeFeedViewController.swift */,
+				CEBE168527EFBE7100367CFF /* ProfileViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -426,8 +432,10 @@
 				CE271D5A27EA3F0200ADB494 /* ViewController.swift in Sources */,
 				CE271D5627EA3F0200ADB494 /* AppDelegate.swift in Sources */,
 				CE271D8B27EA5EB200ADB494 /* SignInViewController.swift in Sources */,
+				CEBE168427EFB6C100367CFF /* HomeFeedViewController.swift in Sources */,
 				CE271D5827EA3F0200ADB494 /* SceneDelegate.swift in Sources */,
 				CE271D8727EA49C500ADB494 /* InitialViewController.swift in Sources */,
+				CEBE168627EFBE7100367CFF /* ProfileViewController.swift in Sources */,
 				CE271D8927EA52D300ADB494 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
